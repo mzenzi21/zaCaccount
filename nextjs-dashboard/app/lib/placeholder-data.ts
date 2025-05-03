@@ -3,9 +3,18 @@
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
-    name: 'User',
+    firstname: 'User',
+    midllename: 'Michael',
+    lastname: 'Chuwa',
+    phone: '078356352',
     email: 'user@nextmail.com',
     password: '123456',
+    gender: 'female',
+    birthdate: '1999-09-28',
+    role: 'admin',
+    imageUrl:'/customers/evil-rabbit.png'
+
+
   },
 ];
 

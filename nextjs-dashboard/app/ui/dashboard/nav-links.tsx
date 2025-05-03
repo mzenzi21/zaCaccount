@@ -30,6 +30,7 @@ const links = [
   { name: 'CRM', href: '/dashboard/crm', icon: BookOpenIcon},
   { name: 'Reports', href: '/dashboard/reports', icon: PrinterIcon},
   { name: 'Expenses', href: '/dashboard/expenses', icon: CurrencyDollarIcon},
+  { name: 'Revenue', href: '/dashboard/revenue', icon: DocumentDuplicateIcon},
   { name: 'Products', href: '/dashboard/products', icon: TvIcon},
   { name: 'Analytics', href: '/dashboard/analytics', icon: DocumentChartBarIcon},
 
@@ -52,6 +53,8 @@ export default function NavLinks() {
                 'bg-sky-100 text-blue-600': pathname === link.href,
               },
             )}
+           
+            
           >
             <LinkIcon className="w-6" />
             <p className="hidden md:block">{link.name}</p>
