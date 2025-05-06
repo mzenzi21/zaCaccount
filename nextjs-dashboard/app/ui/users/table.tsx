@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { UpdateInvoice, DeleteInvoice } from '@/app/ui/invoices/buttons';
+import { UpdateInvoice, DeleteInvoice } from '@/app/ui/users/buttons';
 import InvoiceStatus from '@/app/ui/invoices/status';
 import { fetchInvoicesWithCustomers, ITEMS_PER_PAGE } from '@/app/lib/invoice/data';
 
